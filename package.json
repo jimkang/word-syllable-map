@@ -1,0 +1,33 @@
+{
+  "name": "word-syllable-map",
+  "version": "1.0.0",
+  "description": "Provides a one-way map from words to the syllables they contain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/word-syllable-map.git"
+  },
+  "keywords": [
+    "phoneme",
+    "word"
+  ],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/word-syllable-map/issues"
+  },
+  "homepage": "https://github.com/jimkang/word-syllable-map",
+  "devDependencies": {
+    "call-next-tick": "^1.1.2",
+    "rimraf": "^2.3.4",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "ldjson-stream": "^1.2.1",
+    "level": "^1.2.0",
+    "phonemenon": "^1.3.0"
+  }
+}
