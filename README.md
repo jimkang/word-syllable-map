@@ -14,9 +14,10 @@ Usage
 Sometime before you use the map, you need to call `setUpDatabase` to set up a database, like so:
 
     var setUpDatabase = require('word-syllable-map').setUpDatabase;
+
     setUpDatabase(
       {
-        dbLocation: __dirname + '/where-you-want-it/a-word-phoneme.db'
+        dbLocation: __dirname + '/where-you-want-it/a-word-syllable.db'
       },
       done
     );
