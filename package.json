@@ -1,6 +1,6 @@
 {
   "name": "word-syllable-map",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides a one-way map from words to the syllables they contain.",
   "main": "index.js",
   "scripts": {

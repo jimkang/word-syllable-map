@@ -1,9 +1,8 @@
 var level = require('level');
 
-function createWordSyllableMap(opts, createDone) {
+function createWordSyllableMap(opts) {
   if (!opts || !opts.dbLocation) {
-    createDone(new Error('Cannot create wordSyllableMap without dbLocation.'));
-    return;
+    throw new Error('Cannot create wordSyllableMap without dbLocation.');
   }
 
   var dbOpts = {
