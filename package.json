@@ -23,11 +23,11 @@
   "devDependencies": {
     "call-next-tick": "^1.1.2",
     "rimraf": "^2.3.4",
-    "tape": "^3.0.3"
+    "tape": "^5.0.1"
   },
   "dependencies": {
     "ldjson-stream": "^1.2.1",
-    "level": "^1.2.0",
-    "phonemenon": "^1.3.0"
+    "level": "^6.0.1",
+    "phonemenon": "^1.3.2"
   }
 }
