@@ -1,6 +1,8 @@
 word-syllable-map
 ==================
 
+![Node.js CI](https://github.com/jimkang/word-syllable-map/workflows/Node.js%20CI/badge.svg)
+
 Version 2.0.0 and later requires at least Node 10.
 
 Provides a one-way map from the words to the syllables they contain, derived from the data in the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict). You can look up the syllables for a word with this.
