@@ -1,6 +1,8 @@
 word-syllable-map
 ==================
 
+Version 2.0.0 and later requires at least Node 10.
+
 Provides a one-way map from the words to the syllables they contain, derived from the data in the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict). You can look up the syllables for a word with this.
 
 Installation
@@ -54,9 +56,9 @@ From then on, you can use the map like this:
 Output:
 
     [
-      ['AE', 'B'], 
+      ['AE', 'B'],
       ['N', 'AO', 'R'],
-      ['M', 'AH'], 
+      ['M', 'AH'],
       ['L', 'IY']
     ]
 
